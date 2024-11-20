@@ -13,22 +13,12 @@ header { display:flex;
     justify-content: space-around;
     align-items: center;
     background-color: #ddd0c89f;  
-    padding: 5px 20px;
+    padding: 5px 0px;
 }
 header img{ width: 100px;
         }
-header nav ul{ list-style: none;
-    font-size: 18px;
-    display: flex;
-}
-header nav ul li a{ 
-        text-decoration: none;
-    color: #000000;
-    margin-left: 20px;
 
-}
-
-.fondo{ height: 1080px;
+        .fondo{ height: 1080px;
     background-image: url(../img/coworking_vista_aerea.jpg);
     background-size: cover;
     height: 100vh;
