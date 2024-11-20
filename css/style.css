@@ -48,10 +48,7 @@ header nav ul li a{
 }
 /* footer index-------------------------------------------------------------------------------------------------------------- */
 .pie_de_pagina a img{ width: 30px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 50%;
-    border-inline: 1Px;
-    padding: 8px;
+    filter: invert(1);
 }
 .pie_de_pagina h2{color: #ffffff;
     font-size: 25px;
@@ -76,7 +73,7 @@ header nav ul li a{
 
 .pie_de_pagina_pr { display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;   
     padding: 0px 15%;
     }
 
