@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{ background-color:#DDD0C8;
+    font-family: "Montserrat";
+}
+/* Index* -----------------------------------------------------------------------------------------------------------------------------------*/
+/* Header --------------------------------------------------------------------------------------------------------------------------------------*/
+header { display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ddd0c89f;  
+    padding: 5px 20px;
+}
+header img{ width: 100px;
+        }
+header nav ul{ list-style: none;
+    font-size: 18px;
+    display: flex;
+}
+header nav ul li a{ 
+        text-decoration: none;
+    color: #000000;
+    margin-left: 20px;
+
+}
+
+.fondo{ height: 1080px;
+    background-image: url(../img/coworking_vista_aerea.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+            }
+
+
+.hero h1 {text-align: center;
+    padding: 50px;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    color:white;   
+}
+/* footer index-------------------------------------------------------------------------------------------------------------- */
+.pie_de_pagina a img{ width: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border-inline: 1Px;
+    padding: 8px;
+}
+.pie_de_pagina h2{color: #ffffff;
+    font-size: 25px;
+}
+.pie_de_pagina p{color: #ffffff;
+    font-size: 10px;}
+
+.pie_de_pagina { display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+/* footer otras páginas --------------------------------------------------------------------------------------*/
+.pie_de_pagina_pr a img{ width: 30px;
+}
+.pie_de_pagina_pr h2{color: #000000;
+    font-size: 25px;
+}
+.pie_de_pagina_pr p{color: #000000;
+    font-size: 10px;}
+
+.pie_de_pagina_pr { display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15%;
+    }
+
+/* hoja proyectos ------------------------------------------------------------------------------------------------------------- */ 
+.general_proyectos{
+    padding: 50px 15%;
+}
+
+.proyectos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid: auto rows 500px;
+    gap: 30px;
+    }
+
+.proyectos div{
+    position: relative;
+}
+.proyectos div img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.proyectos div h3{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    padding: 5px ;
+    background-color: #ddd0c89f ;
+}
+.proyectos div p{
+    font-size: 15px;
+    text-align: start;
+    position: absolute;
+    bottom: 0px;
+    background-color: #ddd0c89f; 
+    padding: 5px;
+}
+
+
+/* hoja equipo -------------------------------------------------------------------------------------------------------------------------------------*/ 
+.equipo section div img{
+    width: 800px;
+}
+.equipo section h2{
+    font-size: 35px;
+    font-weight: 300px;
+    text-align: center;
+    }
+.oficina div{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 15%;
+    
+}
+.oficina div p{
+    text-align: justify;
+    font-size: 18px;
+    padding-right: 20px;
+}
+.profesionales{
+    padding: 0px 15%;
+}
+.profesionales div {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    }
+
+    .profesionales div div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 20px ;
+        }
+    
+    .profesionales div div h3{
+        font-size: 25px;
+        font-weight: 300px;
+        text-align: center;
+        }
+        
+    .profesionales div div p{
+        text-align: justify;
+        font-size: 18px;
+        }
+
+/* hoja de publicaciones ---------------------------------------------------------------------------------------------------------------------------*/ 
+.publicaciones section div{padding-bottom: 40px;}
+.publicaciones h2{text-align: center;
+    font-size: 40px;
+padding-bottom: 20px;
+}
+.publicaciones{ padding: 0px 15%;}
+.publicaciones section div p{ text-align: justify;}
+/* hoja de contacto ---------------------------------------------------------------------------------------------------------------------------*/ 
+.contacto {
+    padding: 0px 15%;
+} 
+.contacto section{
+    display: flex;
+    justify-content: space-evenly;
+
+   }
+    .contacto h2{
+        padding: 25px;
+        text-align: center;
+    }
+
+
+/* Media Querys -----------------------------------------------------------------------------------------------------------------------------------*/
+/*!!*asdasdasdasdasdas  
