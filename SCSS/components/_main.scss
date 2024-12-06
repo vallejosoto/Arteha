@@ -1,0 +1,204 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ddd0c89f;
+    padding: 5px 0px;
+
+    img {
+        width: 100px;
+    }
+}
+
+.fondo {
+    height: 1080px;
+    background-image: url(../img/coworking_vista_aerea.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero {
+    h1 {
+        text-align: center;
+        padding: 50px;
+        font-size: 40px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+        color: white;
+
+    }
+}
+
+.general_proyectos {
+    padding: 50px 15%;
+
+    .proyectos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid: auto rows 500px;
+        gap: 30px;
+
+        div {
+            @extend %tarjeta_pr;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+
+            h3 {
+                font-size: nth($font-size, 3);
+                font-weight: 600;
+                text-align: center;
+                position: absolute;
+                top: 0px;
+                padding: 5px;
+                background-color: $color-4 ;
+            }
+
+            p {
+                font-size: nth($font-size, 2);
+                text-align: start;
+                position: absolute;
+                bottom: 0px;
+                color: $color-2;
+                background-color: $color-4 ;
+                padding: 5px;
+            }
+        }
+    }
+}
+
+.equipo {
+    .oficina {
+        h1 {
+            font-size: nth($font-size, 6);
+            font-weight: 300px;
+            text-align: center;
+            margin-top: 20px;
+            padding: 20px;
+            color: $color-2;
+            
+        }
+
+        div {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px 15%;
+
+            p {
+                text-align: justify;
+                font-size: nth($font-size, 3);
+                padding-right: 20px;
+            }
+
+            img {
+                width: 700px;
+                height: 700px;
+            }
+        }
+    }
+
+    .profesionales {
+        padding: 0px 15%;
+
+        h2 {
+            font-size: nth($font-size, 6);
+            font-weight: 300px;
+            text-align: center;
+            margin-top: 20px;
+            padding: 20px;
+            color: $color-2;
+            
+        }
+
+        div {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px 0px;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-right: 20px;
+
+                h3 {
+                    font-size: nth($font-size, 5);
+                    font-weight: 300px;
+                    text-align: center;
+
+                }
+
+                p {
+                    text-align: justify;
+                    font-size: nth($font-size, 3);
+                    color: $color-2;
+                }
+            }
+
+            img {
+                width: 700px;
+                height: 700px;
+                
+            }
+        }
+    }
+}
+
+.contacto {
+    h1 {
+        padding: 25px;
+        font-size: nth($font-size, 6);
+        font-weight: 300px;
+        text-align: center;
+        color: $color-2;
+    }
+}
+
+.ubicacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        padding: 10px;
+    }
+
+    form {
+        padding: 10px;
+    }
+}
+
+/* Hoja de publicaciones*/
+.publicaciones { padding: 0px 20%;
+    section {
+        h2 {
+            text-align: center;
+            font-size: nth($font-size, 6);
+            font-weight: 300px;
+            margin-top: 20px;
+            padding: 20px;
+            color: $color-2;           
+        }
+
+        div {
+            h3 {
+                text-align: center;
+            font-size: nth($font-size, 5);
+            font-weight: 300px;
+            padding-bottom: 20px;
+            color: $color-2;
+            }
+
+            p {text-align: justify;
+                color: $color-5;
+            }
+        }
+    }
+}

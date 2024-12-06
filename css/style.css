@@ -18,7 +18,7 @@ header { display:flex;
 header img{ width: 100px;
         }
 
-        .fondo{ height: 1080px;
+.fondo{ height: 1080px;
     background-image: url(../img/coworking_vista_aerea.jpg);
     background-size: cover;
     height: 100vh;
@@ -217,3 +217,8 @@ padding-bottom: 20px;
 .pie_de_pagina_pr p{
     font-size: 8px;}
     }
+
+.pie {
+
+    fonts
+}

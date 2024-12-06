@@ -1,0 +1,392 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.general_proyectos .proyectos div {
+  position: relative;
+}
+
+/* Para aplicar las listas se usa font-size: nth($fontsize,3)
+Para llamar el extend se pone @extend %"nombre del extend"
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #DDD0C8;
+  font-family: "Montserrat";
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(221, 208, 200, 0.6235294118);
+  padding: 5px 0px;
+}
+header img {
+  width: 100px;
+}
+
+.fondo {
+  height: 1080px;
+  background-image: url(../img/coworking_vista_aerea.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero h1 {
+  text-align: center;
+  padding: 50px;
+  font-size: 40px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.general_proyectos {
+  padding: 50px 15%;
+}
+.general_proyectos .proyectos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid: auto rows 500px;
+  gap: 30px;
+}
+.general_proyectos .proyectos div img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.general_proyectos .proyectos div h3 {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  position: absolute;
+  top: 0px;
+  padding: 5px;
+  background-color: rgba(221, 208, 200, 0.6235294118);
+}
+.general_proyectos .proyectos div p {
+  font-size: 15px;
+  text-align: start;
+  position: absolute;
+  bottom: 0px;
+  color: #000000;
+  background-color: rgba(221, 208, 200, 0.6235294118);
+  padding: 5px;
+}
+
+.equipo .oficina h1 {
+  font-size: 40px;
+  font-weight: 300px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  color: #000000;
+}
+.equipo .oficina div {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 15%;
+}
+.equipo .oficina div p {
+  text-align: justify;
+  font-size: 20px;
+  padding-right: 20px;
+}
+.equipo .oficina div img {
+  width: 700px;
+  height: 700px;
+}
+.equipo .profesionales {
+  padding: 0px 15%;
+}
+.equipo .profesionales h2 {
+  font-size: 40px;
+  font-weight: 300px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  color: #000000;
+}
+.equipo .profesionales div {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px;
+}
+.equipo .profesionales div div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 20px;
+}
+.equipo .profesionales div div h3 {
+  font-size: 30px;
+  font-weight: 300px;
+  text-align: center;
+}
+.equipo .profesionales div div p {
+  text-align: justify;
+  font-size: 20px;
+  color: #000000;
+}
+.equipo .profesionales div img {
+  width: 700px;
+  height: 700px;
+}
+
+.contacto h1 {
+  padding: 25px;
+  font-size: 40px;
+  font-weight: 300px;
+  text-align: center;
+  color: #000000;
+}
+
+.ubicacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ubicacion div {
+  padding: 10px;
+}
+.ubicacion form {
+  padding: 10px;
+}
+
+/* Hoja de publicaciones*/
+.publicaciones {
+  padding: 0px 20%;
+}
+.publicaciones section h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 300px;
+  margin-top: 20px;
+  padding: 20px;
+  color: #000000;
+}
+.publicaciones section div h3 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300px;
+  padding-bottom: 20px;
+  color: #000000;
+}
+.publicaciones section div p {
+  text-align: justify;
+  color: rgb(141, 141, 141);
+}
+
+.pie_de_pagina {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.pie_de_pagina div h2 {
+  color: #FFFFFF;
+  font-size: 25px;
+}
+.pie_de_pagina div p {
+  color: #FFFFFF;
+  font-size: 10px;
+}
+.pie_de_pagina a img {
+  width: 30px;
+  filter: invert(1);
+}
+
+.pie_de_pagina_pr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15%;
+  flex-wrap: wrap;
+}
+.pie_de_pagina_pr div h2 {
+  color: #000000;
+  font-size: 25px;
+}
+.pie_de_pagina_pr div p {
+  color: #000000;
+  font-size: 10px;
+}
+.pie_de_pagina_pr div a img {
+  width: 30px;
+}
+
+.pie_de_pagina_p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15%;
+  flex-wrap: wrap;
+}
+.pie_de_pagina_p div h2 {
+  color: #000000;
+  font-size: 25px;
+}
+.pie_de_pagina_p div p {
+  color: #000000;
+  font-size: 10px;
+}
+.pie_de_pagina_p a img {
+  width: 30px;
+}
+
+@media screen and (max-width: 1760px) {
+  .equipo .oficina div img {
+    width: 600px;
+    height: 600px;
+  }
+  .equipo .profesionales div img {
+    width: 600px;
+    height: 600px;
+  }
+  .equipo .oficina div p {
+    font-size: 18px;
+  }
+  .equipo .profesionales div div p {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .general_proyectos .proyectos {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .ubicacion div iframe {
+    width: 600px;
+    height: 400px;
+  }
+  .equipo .oficina div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .equipo .profesionales div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .equipo .oficina div img {
+    width: 700px;
+    height: 700px;
+  }
+  .equipo .profesionales div img {
+    width: 700px;
+    height: 700px;
+  }
+  .equipo .oficina div p {
+    font-size: 15px;
+  }
+  .equipo .profesionales div div p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 980px) {
+  header img {
+    width: 80px;
+    height: 80px;
+  }
+  .general_proyectos .proyectos {
+    grid-template-columns: auto;
+    gap: 10px;
+  }
+  .ubicacion {
+    flex-direction: column;
+  }
+  .contacto_g1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .equipo .oficina div img {
+    width: 500px;
+    height: 500px;
+  }
+  .equipo .profesionales div img {
+    width: 500px;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .ubicacion div iframe {
+    width: 400px;
+    height: 300px;
+  }
+  .publicaciones section h2 {
+    font-size: 30px;
+  }
+  .publicaciones section div h3 {
+    font-size: 25px;
+  }
+  .equipo .oficina div img {
+    width: 400px;
+    height: 400px;
+  }
+  .equipo .profesionales div img {
+    width: 400px;
+    height: 400px;
+  }
+  .pie_de_pagina div h2 {
+    font-size: 20px;
+  }
+  .pie_de_pagina div p {
+    font-size: 8px;
+  }
+  .pie_de_pagina_pr div h2 {
+    font-size: 20px;
+  }
+  .pie_de_pagina_pr div p {
+    font-size: 8px;
+  }
+  .pie_de_pagina_p div h2 {
+    font-size: 20px;
+  }
+  .pie_de_pagina_p div p {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .general_proyectos .proyectos div p {
+    display: none;
+  }
+  .ubicacion div iframe {
+    width: 300px;
+    height: 225px;
+  }
+  .contacto_g1 {
+    flex-direction: column;
+  }
+  .publicaciones section h2 {
+    font-size: 25px;
+  }
+  .publicaciones section div h3 {
+    font-size: 20px;
+  }
+  .equipo .oficina div img {
+    width: 300px;
+    height: 300px;
+  }
+  .equipo .profesionales div img {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .equipo .oficina div img {
+    width: 250px;
+    height: 250px;
+  }
+  .equipo .profesionales div img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

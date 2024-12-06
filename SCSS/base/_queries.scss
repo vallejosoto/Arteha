@@ -1,0 +1,216 @@
+@media screen and (max-width:1760px) {
+    .equipo .oficina div img {
+        width: 600px;
+        height: 600px;
+    }
+
+    .equipo .profesionales div img {
+        width: 600px;
+        height: 600px;
+    }
+
+    .equipo .oficina div p {
+        font-size: 18px;
+    }
+
+    .equipo .profesionales div div p {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width:1440px) {
+    .general_proyectos .proyectos {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+
+    }
+
+    .ubicacion {
+        div {
+            iframe {
+                width: 600px;
+                height: 400px;
+            }
+        }
+    }
+
+    .equipo .oficina div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .equipo .profesionales div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .equipo .oficina div img {
+        width: 700px;
+        height: 700px;
+    }
+
+    .equipo .profesionales div img {
+        width: 700px;
+        height: 700px;
+    }
+
+    .equipo .oficina div p {
+        font-size: 15px;
+    }
+
+    .equipo .profesionales div div p {
+        font-size: 15px;
+    }
+
+
+}
+
+@media screen and (max-width: 980px) {
+
+    header img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .general_proyectos .proyectos {
+        grid-template-columns: auto;
+        gap: 10px;
+    }
+
+    .ubicacion {
+        flex-direction: column;
+    }
+
+    .contacto_g1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .equipo .oficina div img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .equipo .profesionales div img {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width:650px) {
+
+    .ubicacion {
+        div {
+            iframe {
+                width: 400px;
+                height: 300px;
+            }
+        }
+    }
+
+    .publicaciones section h2 {
+        font-size: nth($font-size, 5);
+    }
+
+    .publicaciones section div h3 {
+        font-size: nth($font-size, 4);
+    }
+
+    .equipo .oficina div img {
+        width: 400px;
+        height: 400px;
+        ;
+    }
+
+    .equipo .profesionales div img {
+        width: 400px;
+        height: 400px;
+        ;
+    }
+
+    .pie_de_pagina div h2 {
+
+        font-size: 20px;
+    }
+
+    .pie_de_pagina div p {
+
+        font-size: 8px;
+    }
+
+    .pie_de_pagina_pr div h2 {
+
+        font-size: 20px;
+    }
+
+    .pie_de_pagina_pr div p {
+        font-size: 8px;
+    }
+
+    .pie_de_pagina_p div h2 {
+
+        font-size: 20px;
+    }
+
+    .pie_de_pagina_p div p {
+        font-size: 8px;
+    }
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .general_proyectos .proyectos div p {
+        display: none;
+    }
+
+    .ubicacion {
+        div {
+            iframe {
+                width: 300px;
+                height: 225px;
+            }
+        }
+    }
+
+    .contacto_g1 {
+        flex-direction: column;
+    }
+
+    .publicaciones section h2 {
+        font-size: nth($font-size, 4);
+    }
+
+    .publicaciones section div h3 {
+        font-size: nth($font-size, 3);
+    }
+
+    .equipo .oficina div img {
+        width: 300px;
+        height: 300px;
+        ;
+    }
+
+    .equipo .profesionales div img {
+        width: 300px;
+        height: 300px;
+        ;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .equipo .oficina div img {
+        width: 250px;
+        height: 250px;
+        ;
+    }
+
+    .equipo .profesionales div img {
+        width: 250px;
+        height: 250px;
+        ;
+    }
+}
